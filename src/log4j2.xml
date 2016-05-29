@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+  <Appenders>
+    <Console name="Console" target="SYSTEM_OUT">
+      <PatternLayout pattern="%d{dd/MM/YYY  -||- HH:mm:ss}  -||-  [TestCase]=  %msg%n"/>
+      
+    </Console>
+<!--     <File name="FileLogger" fileName="c:/Documents/Test Report and Step/automationtestresult.csv"> -->
+<File name="FileLogger" fileName="/TroyIntelliMark  Project/TroyIntelliMark2/TEST REPORT/ DETAIL Automation LOG.csv">
+      <PatternLayout>
+        <!-- <Pattern> %d{:HH:mm:ss},, Actual Result:,  Tester PC Window 8,WebBrowser: Chrome version 6, Internet Speed : Download 37.90mbps and upload 5.67mbps,  %msg%n </Pattern> -->
+        <Pattern> %d{dd/MM/YYY  -||- HH:mm:ss} -||-   %msg%n </Pattern>
+        
+      </PatternLayout>
+    </File>
+    
+      <Async name="Async">
+      <AppenderRef ref="FileLogger"/>
+    </Async>
+  </Appenders>
+  <Loggers>
+    <Logger name="utility.Navigation.BaseLogger" level="trace" additivity="false">
+      <AppenderRef ref="Console"/>
+      <AppenderRef ref="FileLogger"/>
+    </Logger>
+    <Root level="error">
+      <AppenderRef ref="Console"/>
+      <AppenderRef ref="FileLogger"/>
+    </Root>
+  </Loggers>
+</Configuration>

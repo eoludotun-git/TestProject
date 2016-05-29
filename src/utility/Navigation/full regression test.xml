@@ -1,0 +1,31 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression TEST (Track and Trace)">
+
+  <test name="Report For Track and Trace Regression TEST">
+    <classes>
+    
+    <class name="com.test.TroyAdmin.TroyAdmin_CreateBO_001" />
+       <class name="com.test.TroyAdmin.TroyAdmin_CreateBO_User_003" />
+			<class name="com.test.TroyAdmin.TroyAdmin_CreateLC_002" />
+			<class name="com.test.TroyAdmin.TroyAdmin_CreateLC_User_004" />
+			<class name="com.test.TroyAdmin.TroyAdmin_CreateNotification_005" />
+			<class name="com.test.TroyAdmin.TroyAdmin_Terms_OF_USE_006" />
+			
+			
+			
+			<class name="com.test.BrandOwner.BO_CreateProduct_AddAuto_Notification_02" />
+			<class name="com.test.BrandOwner.BO_CreateProduct_AddProductEmailNotification_002" />
+			<class name="com.test.BrandOwner.BO_AddLabelConverter_004" />
+			<class name="com.test.BrandOwner.BO_CreateLabelBundle_003" />
+			<class name="com.test.BrandOwner.BO_DownLoad_UTC_FILE_006" />
+			<class name="com.test.BrandOwner.BO_CreateFeedBack_005" />
+			<class name="com.test.BrandOwner.Bo_RegisterLot_008" />
+			<class name="com.test.BrandOwner.BO_DashBoardFiltering_AND_Navigations_011" />
+			<class name="com.test.BrandOwner.BO_ExportScanData_009" />
+			<class name="com.test.BrandOwner.BO_UpdatePassword_012" />
+			<class name="com.test.BrandOwner.BO_EditProduct_010" />
+				<class name="com.test.BrandOwner.BO_EditFeedBack_007" />
+				<class name="com.test.BrandOwner.BO_TermsOf_USE_001" />
+  </classes>
+  </test> 
+</suite>
