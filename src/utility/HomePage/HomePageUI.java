@@ -18,12 +18,12 @@ public class HomePageUI {
 	  
 }
 	  
-	  public static WebElement Click_About_Troy(WebDriver driver){
+	  public static WebElement Click_A(WebDriver driver){
 	     element = driver.findElement(By.xpath("html/body/div[4]/div/div/div[1]/ul/li[1]/a"));
 	  return element;
 	  }
 	  
-	  public static WebElement Click_About_TROY_Track_and_Trace(WebDriver driver){
+	  public static WebElement Click_Abou(WebDriver driver){
 		     element = driver.findElement(By.xpath("html/body/div[4]/div/div/div[1]/ul/li[2]/a"));
 		  return element;
 		  
