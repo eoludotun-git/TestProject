@@ -5,8 +5,8 @@
       <PatternLayout pattern="%d{dd/MM/YYY  -||- HH:mm:ss}  -||-  [TestCase]=  %msg%n"/>
       
     </Console>
-<!--     <File name="FileLogger" fileName="c:/Documents/Test Report and Step/automationtestresult.csv"> -->
-<File name="FileLogger" fileName="/TroyIntelliMark  Project/TroyIntelliMark2/TEST REPORT/ DETAIL Automation LOG.csv">
+
+<File name="FileLogger" fileName="/computer_NAME/PATH/REPORT_NAME/ DETAIL Automation LOG.csv">
       <PatternLayout>
         <!-- <Pattern> %d{:HH:mm:ss},, Actual Result:,  Tester PC Window 8,WebBrowser: Chrome version 6, Internet Speed : Download 37.90mbps and upload 5.67mbps,  %msg%n </Pattern> -->
         <Pattern> %d{dd/MM/YYY  -||- HH:mm:ss} -||-   %msg%n </Pattern>
